@@ -1,0 +1,252 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 */
+/* синий #2196F3 */
+/* белый #FFFFFF */
+/* банер фон #2F303A */
+
+:root {
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575;
+    --blue: #2196F3;
+    --white: #FFFFFF;
+    --banner: #2F303A;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* скрытое */
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Шапка */
+
+.section-header{
+    background-color: var(--white);
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--blue);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo-dark{
+    color: #000;
+}
+
+.logo-light{
+    color: #FFF;
+}
+
+/* Навигация */
+
+
+.site-nav-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
+    }
+    
+    .site-nav .link {
+        color: var(--primery-text-color);
+    }
+    
+    .site-nav .link:hover, 
+    .site-nav .link:focus {
+        color: var(--blue);
+    }
+    
+    .site-nav .link.current{
+        color: var(--blue);
+    }
+    
+    .contact-nav .link {
+        color: var(--secondary-text-color);
+    }
+    
+    .contact-nav .link:hover,
+    .contact-nav .link:focus{
+         color: var(--blue);
+    }
+
+ul {
+    list-style: none;
+}
+
+/* кнопка*/
+
+.button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    color: var(--primery-text-color);
+    background-color: #F5F4FA;
+}
+
+.filtr .button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+/* Подвал */
+
+.footer-section{
+    background-color: var(--banner);
+}
+
+.footer-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-adress{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white)
+}
+
+/* Секция */
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section-team{
+    background-color: #F5F4FA;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+
+.work-section{
+    padding-top: 0;
+}
+
+/* Hero */
+.hero {
+    background-color: var(--banner);
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+/* Наши преимущества */
+
+.features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primery-text-color);
+}
+
+
+/* Наша деятельность */
+
+
+/* Команда */
+
+.team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+.team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+/* Портфолио */
+
+.filtr-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: va(--primery-text-color);
+}
+
+.projects-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color);
+}
+
+.projects-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 */
+/* синий #2196F3 */
+/* белый #FFFFFF */
+/* бфнер фон #2F303A */
+/* подвал текст rgba(255, 255, 255, 0.6)*/
