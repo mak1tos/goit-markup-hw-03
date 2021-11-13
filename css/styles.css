@@ -20,6 +20,22 @@ body {
     color: var(--secondary-text-color);
 }
 
+p {
+    margin: 0;
+}
+
+.h3 {
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+}
+
 /* скрытое */
 .visually-hidden {
     position: absolute;
@@ -35,10 +51,13 @@ body {
 /* Шапка */
 
 .section-header{
+    margin: 0 0;
     background-color: var(--white);
 }
 
 .logo{
+    margin-bottom: 20px;
+
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -99,15 +118,28 @@ ul {
 /* кнопка*/
 
 .button{
+    border-radius: 4px;
+    margin-bottom: 200px;
+    padding: 10px 25px;
+    min-width: 186px;
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.62;
+    text-align: center;
     cursor: pointer;
+
     color: var(--primery-text-color);
     background-color: #F5F4FA;
 }
 
 .filtr .button{
+    margin-bottom: 50px;
+    display: inline-block;
+    border-radius: 4px;
+    min-width: 73px;
+    padding: 6px 22px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -125,7 +157,14 @@ ul {
 /* Подвал */
 
 .footer-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background-color: var(--banner);
+}
+
+.footer-item{
+    margin-bottom: 9px;
 }
 
 .footer-link{
@@ -152,8 +191,8 @@ ul {
 
 .section{
     padding-top: 94px;
-    padding-bottom: 94px;
-    background-color: #E5E5E5
+   
+    
 }
 
 
@@ -162,12 +201,15 @@ ul {
 }
 
 .section-title{
-    margin: 0 0;
+    margin-top: 94px;
+    margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: var(--primery-text-color);
 }
 
@@ -178,16 +220,22 @@ ul {
 
 /* Hero */
 .hero {
+    text-align: center;
     background-color: var(--banner);
 }
 
 .hero-title{
+    margin-top: 0;
+    margin-bottom: 30;
+    padding-top: 200px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+
     color: var(--white);
 }
 
@@ -195,7 +243,10 @@ ul {
 
 .features{
     margin: 0 0;
-    padding: 0 0;
+}
+
+.features-section{
+    background-color: #E5E5E5;
 }
 
 .features-title {
@@ -216,6 +267,12 @@ ul {
 
 /* Команда */
 
+.team{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .team-title {
     font-weight: 500;
     font-size: 16px;
@@ -232,6 +289,11 @@ ul {
 
 /* Портфолио */
 
+.filtr{
+    margin: 0 0;
+    padding: 0 0;
+}
+
 .filtr-item{
     font-weight: 500;
     font-size: 16px;
@@ -241,6 +303,9 @@ ul {
 }
 
 .projects-title{
+    margin-top: 20px;
+    margin-bottom: 4px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
