@@ -68,29 +68,29 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
-    }
+}
     
-    .site-nav .link {
-        color: var(--primery-text-color);
-    }
-    
-    .site-nav .link:hover, 
-    .site-nav .link:focus {
-        color: var(--blue);
-    }
-    
-    .site-nav .link.current{
-        color: var(--blue);
-    }
-    
-    .contact-nav .link {
-        color: var(--secondary-text-color);
-    }
-    
-    .contact-nav .link:hover,
-    .contact-nav .link:focus{
-         color: var(--blue);
-    }
+.site-nav .link {
+    color: var(--primery-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--blue);
+}
+
+.site-nav .link.current{
+    color: var(--blue);
+}
+
+.contact-nav .link {
+    color: var(--secondary-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+    color: var(--blue);
+} 
 
 ul {
     list-style: none;
@@ -153,13 +153,16 @@ ul {
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #E5E5E5
 }
+
 
 .section-team{
     background-color: #F5F4FA;
 }
 
 .section-title{
+    margin: 0 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -169,7 +172,8 @@ ul {
 }
 
 .work-section{
-    padding-top: 0;
+  
+    background-color: #E5E5E5;
 }
 
 /* Hero */
@@ -189,6 +193,11 @@ ul {
 
 /* Наши преимущества */
 
+.features{
+    margin: 0 0;
+    padding: 0 0;
+}
+
 .features-title {
     font-weight: 700;
     font-size: 14px;
@@ -200,6 +209,9 @@ ul {
 
 
 /* Наша деятельность */
+.works{
+    margin: 0 0;
+}
 
 
 /* Команда */
