@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студио</title>
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка-->
-         <header class="section section-header">
+         <header class="section-header">
             <!--Навигация-->
             <div class="container main-nav">
                 <nav class="main-nav">
@@ -65,7 +64,7 @@
             </div>
         </section>
     <!--Наша деятельность-->
-        <section class="section work-section">
+        <section class="work-section">
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="works">
@@ -76,39 +75,47 @@
             </div>
         </section>
     <!--Команда-->
-        <section class="section section-team">
+        <section class="section-team">
             <div class="container">
                 <h2 class="section-title">Наша команда</h2>
                 <ul class="team">
                     <li class="item">
-                        <img src="images/img-3.jpg" alt="Игорь Демьяненко" height="270" width="260">
-                        <h3 class="team-title">Игорь Демьяненко</h3>
-                        <p class="team-text">Product Designer</p>
+                        <img src="images/img-3.jpg" alt="Игорь Демьяненко" height="260" width="270">
+                        <div class="name">
+                                 <h3 class="team-title">Игорь Демьяненко</h3>
+                                 <p class="team-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="item">
-                        <img src="images/img-2.jpg" alt="Ольга Репина" height="270" width="260">
-                        <h3 class="team-title">Ольга Репина</h3>
-                        <p class="team-text">Frontend Developer</p>
+                        <img src="images/img-2.jpg" alt="Ольга Репина" height="260" width="270">
+                        <div class="name">
+                            <h3 class="team-title">Ольга Репина</h3>
+                            <p class="team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="item">
-                        <img src="images/img-1.jpg" alt="Николай Тарасов" height="270" width="260">
-                        <h3 class="team-title">Николай Тарасов</h3>
-                        <p class="team-text">Marketing</p>
+                        <img src="images/img-1.jpg" alt="Николай Тарасов" height="260" width="270">
+                        <div class="name">
+                            <h3 class="team-title">Николай Тарасов</h3>
+                            <p class="team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="item">
-                        <img src="images/img.jpg" alt="Михаил Ермаков" height="270" width="260">
-                        <h3 class="team-title">Михаил Ермаков</h3>
-                        <p class="team-text">UI Designer</p>
+                        <img src="images/img.jpg" alt="Михаил Ермаков" height="260" width="270">
+                        <div class="name">
+                            <h3 class="team-title">Михаил Ермаков</h3>
+                            <p class="team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
     </main>
     <!--Подвал-->
-        <footer class="section footer-section">
+        <footer class="footer-section">
             <div class="container">
                  <a class="logo link" href="/">Web<span class="logo-light">Studio</span></a>
-                <address>
+                <address class="address">
                      <ul class="footer">
                          <li class="footer-item"><a class="footer-adress" href="https://goo.gl/maps/55i3DgBXtHAcoqPj8">г.Киев, пр-т Леси Украинки, 26</a></li>
                          <li class="footer-item"><a class="footer-link" href="mailto:info@example.com">info@example.com</a></li>
