@@ -30,6 +30,9 @@ ul {
     list-style: none;
 }
 
+.section{
+    padding: 94px 0;
+}
 
 .container{
     width: 1200px;
@@ -255,9 +258,6 @@ ul {
 
 /* --------------------------Наши преимущества--------------------- */
 
-.features-section{
-    margin: 94px 0;
-}
 
 .features{
     display: flex;
@@ -287,9 +287,6 @@ ul {
 
 /* -------------------------Наша деятельность------------------------ */
 
-.work-section{
-    margin-bottom:  94px;
-}
 
 .work-section .section-title{
     padding-top: 0;
@@ -317,7 +314,6 @@ ul {
 /* --------------------Команда-------------------------- */
 
 .section-title{
-    padding-top: 94px;
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -331,7 +327,6 @@ ul {
 
 .team{
     display: flex;
-    padding-bottom: 94px;
 
     text-align: center;
 }
@@ -369,7 +364,6 @@ ul {
 .filtr{
     display: flex;
     justify-content: center;
-    padding-top: 94px;
     margin-bottom: 50px;
     
 }
@@ -389,7 +383,6 @@ ul {
 .projects{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
 }
 
 .projects-item{
