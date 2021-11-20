@@ -258,6 +258,11 @@ ul {
 
 /* --------------------------Наши преимущества--------------------- */
 
+.features-section{
+    padding-top: 94;
+    padding-bottom: 0;
+   
+}
 
 .features{
     display: flex;
